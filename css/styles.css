@@ -1,27 +1,35 @@
-body {
-    min-height: 100vh;
-    width: 100%;
-    background-color: pink;
-
-}
 .hero {
     background-color: #1F2937;
-    padding: 50px;
-    color: white;
+    color: #F9FAF8;
 }
 
-.heading {
+.info-image {
+    border: 5px solid #3882F6;
+    padding: 15px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 60px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.heading ul {
-    text-decoration: none;
-    list-style-type: none;
-    margin: auto;
+.quote-message {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    width: 750px;
+}
+
+.quote-author {
     display: flex;
-    gap: 10px;
+    justify-content: flex-end;
+    width: 740px;
 }
 
-.call-to-action {
-    background-color: #3882F6;
-}
+
+
+
+
